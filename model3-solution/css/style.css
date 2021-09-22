@@ -1,0 +1,36 @@
+body {
+	background-color:;
+}
+
+section {
+	background-color: yellow;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	height: 1000px;
+}
+
+#header-nav {
+	border-radius: 0;
+	border: 0;
+}
+
+nav#header-nav.navbar.navbar-default div.container {
+	margin-left:0;
+}
+
+@media (min-width: 576px) {
+	.navbar-toggle{
+		display:none;
+	}
+}
+
+#nav-list li {
+  margin-top: 10px;
+  text-align: center;
+}
+
+div#collapsable-nav.navbar-collapse.collapse.in {
+	background-color: purple;
+}
+
